@@ -1,51 +1,53 @@
-# AS 2025 Proj
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+# 📘 Projeto Exemplo + Modelo de Relatório  
+_ISMT – Análise de Sistemas 2025_
 
-## Running the application
+---
 
-Open the project in an IDE. You can download the [IntelliJ community edition](https://www.jetbrains.com/idea/download) if you do not have a suitable IDE already.
-Once opened in the IDE, locate the `Application` class and run the main method using "Debug".
+Este projeto foi criado com um objetivo muito claro:  
+✅ **Ajudar-te a fazer o relatório do Projeto 2** com confiança, estrutura e qualidade profissional.  
+E ao mesmo tempo...  
+🚀 **Abrir-te as portas para o mundo do Java “a sério”**, tal como é usado nas empresas.
 
-For more information on installing in various IDEs, see [how to import Vaadin projects to different IDEs](https://vaadin.com/docs/latest/getting-started/import).
+---
 
-If you install the Vaadin plugin for IntelliJ, you should instead launch the `Application` class using "Debug using HotswapAgent" to see updates in the Java code immediately reflected in the browser.
+## 🎬 Vídeo passo-a-passo
 
-## Deploying to Production
+👉 Todos os passos estão explicados num **vídeo incluído nesta pasta**.  
+Podes ver como preencher cada secção do relatório, que ferramentas usar, e o que deves (ou não) fazer.
 
-The project is a standard Maven project. To create a production build, call 
+💡 Ideal para acompanhares com o Word aberto e ires preenchendo à medida que aprendes!
 
-```
-./mvnw clean package -Pproduction
-```
+---
 
-If you have Maven globally installed, you can replace `./mvnw` with `mvn`.
+## 📁 O que contém esta pasta?
 
-This will build a JAR file with all the dependencies and front-end resources,ready to be run. The file can be found in the `target` folder after the build completes.
-You then launch the application using 
-```
-java -jar target/as2025proj-1.0-SNAPSHOT.jar
-```
+- 📄 Template do relatório (.docx) totalmente orientado
+- 🖼️ Diagramas e imagens de apoio (PlantUML, casos de uso, etc.)
+- 📹 **Vídeo com explicações práticas e acessíveis**
+- 💬 Sugestões de boas práticas e ferramentas online
+- 💡 Dicas para organizares o teu projeto como um verdadeiro analista de sistemas
 
-## Project structure
+---
 
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
-  [App Layout](https://vaadin.com/docs/components/app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `src/main/frontend` contains the client-side JavaScript views of your application.
-- `themes` folder in `src/main/frontend` contains the custom CSS styles.
+## 💻 Código-fonte do Projeto Exemplo
 
-## Useful links
+Se quiseres explorar o projeto real (com login, autenticação, serviços, views e repositórios reais), ele está disponível aqui:  
+🔗 [github.com/luiscunhacsc/as2025proj](https://github.com/luiscunhacsc/as2025proj)
 
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorial at [vaadin.com/docs/latest/tutorial/overview](https://vaadin.com/docs/latest/tutorial/overview).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/docs/latest/components](https://vaadin.com/docs/latest/components).
-- View use case applications that demonstrate Vaadin capabilities at [vaadin.com/examples-and-demos](https://vaadin.com/examples-and-demos).
-- Build any UI without custom CSS by discovering Vaadin's set of [CSS utility classes](https://vaadin.com/docs/styling/lumo/utility-classes). 
-- Find a collection of solutions to common use cases at [cookbook.vaadin.com](https://cookbook.vaadin.com/).
-- Find add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Forum](https://vaadin.com/forum).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin).
+Podes usá-lo como referência para compreender:
+- Como se estrutura um projeto real em Java com Spring Boot + Vaadin
+- Como aplicar os princípios da POO numa app moderna
+- Como documentar de forma clara e profissional
+
+---
+
+## 🏁 Última dica
+
+> Vai com calma. Segue o vídeo, preenche secção a secção, e vais ver que fazer o relatório (e aprender Java como deve ser) não custa nada.  
+> Esta experiência vai preparar-te **não só para passar a UC de Análise de Sistemas**… mas para o mundo real do desenvolvimento de software. 💼🚀
+
+---
+
+🧑‍🏫 _Luís Cunha_  
+_ISMT – Análise de Sistemas 2025_
